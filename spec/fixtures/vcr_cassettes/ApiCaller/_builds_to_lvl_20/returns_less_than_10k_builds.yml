@@ -1,0 +1,401 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://mugenmonkey.com/api/v0/ds3_weapons
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Date:
+      - Thu, 30 Jun 2022 02:35:11 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Request-Id:
+      - b55b63b6-d700-42e4-86c8-bf7ad6231c56
+      X-Runtime:
+      - '0.001673'
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubDomains
+      Via:
+      - 1.1 vegur
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=q61CzAmvYTmDeMLs5Pfy9F6euwASzkjRekX9BXzZbOngksZXdwdqoXtZnKaOSz9mz6Xe3r4tCHVBGDw3Yktd8QIpOx%2F6qZKfWzxLvLhbBk9Z0ugmU3Qfb0QzAywW%2Fct5tYc%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 723381d48b5defa2-NRT
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        <!DOCTYPE html>
+        <html>
+        <head>
+          <title>The page you were looking for doesn't exist (404)</title>
+          <meta name="viewport" content="width=device-width,initial-scale=1">
+          <style>
+          body {
+            background-color: #EFEFEF;
+            color: #2E2F30;
+            text-align: center;
+            font-family: arial, sans-serif;
+            margin: 0;
+          }
+
+          div.dialog {
+            width: 95%;
+            max-width: 33em;
+            margin: 4em auto 0;
+          }
+
+          div.dialog > div {
+            border: 1px solid #CCC;
+            border-right-color: #999;
+            border-left-color: #999;
+            border-bottom-color: #BBB;
+            border-top: #B00100 solid 4px;
+            border-top-left-radius: 9px;
+            border-top-right-radius: 9px;
+            background-color: white;
+            padding: 7px 12% 0;
+            box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+          }
+
+          h1 {
+            font-size: 100%;
+            color: #730E15;
+            line-height: 1.5em;
+          }
+
+          div.dialog > p {
+            margin: 0 0 1em;
+            padding: 1em;
+            background-color: #F7F7F7;
+            border: 1px solid #CCC;
+            border-right-color: #999;
+            border-left-color: #999;
+            border-bottom-color: #999;
+            border-bottom-left-radius: 4px;
+            border-bottom-right-radius: 4px;
+            border-top-color: #DADADA;
+            color: #666;
+            box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+          }
+          </style>
+        </head>
+
+        <body>
+          <!-- This file lives in public/404.html -->
+          <div class="dialog">
+            <div>
+              <h1>The page you were looking for doesn't exist.</h1>
+              <p>You may have mistyped the address or the page may have moved.</p>
+            </div>
+            <p>If you are the application owner check the logs for more information.</p>
+          </div>
+        </body>
+        </html>
+  recorded_at: Thu, 30 Jun 2022 02:35:13 GMT
+- request:
+    method: get
+    uri: http://mugenmonkey.com/api/v0/ds3_builds?level_to=20
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Date:
+      - Thu, 30 Jun 2022 02:35:11 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - max-age=3600
+      Expires:
+      - Thu, 30 Jun 2022 03:35:11 GMT
+      Location:
+      - https://mugenmonkey.com/api/v0/ds3_builds?level_to=20
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=K6JpiqOflp9v2YWCJmtEINlc%2BONloFWu4Eq10RPjU2iMUd5n66cU9QZGbT2hOqpx6EPBRyiXDnqIBXHKhIBP61Xu5cPuLGIQ0Us26LkrxyXAsqTFvKomNPZr1PAMbdyLKl8%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Vary:
+      - Accept-Encoding
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 723381d73d98afa5-NRT
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: UTF-8
+      string: ''
+  recorded_at: Thu, 30 Jun 2022 02:35:13 GMT
+- request:
+    method: get
+    uri: https://mugenmonkey.com/api/v0/ds3_builds?level_to=20
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 30 Jun 2022 02:35:12 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Cache-Control:
+      - no-store
+      Pragma:
+      - no-cache
+      Expires:
+      - Fri, 01 Jan 1990 00:00:00 GMT
+      Vary:
+      - Accept
+      Etag:
+      - W/"d4deb0f6fc2f7019f547eaec310ef66d"
+      X-Request-Id:
+      - 27a4d0c0-cb6e-4d87-ad29-bcf6c005dedb
+      X-Runtime:
+      - '0.050837'
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubDomains
+      Via:
+      - 1.1 vegur
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=2zIMCbL2jsxSXsgBXIkgOYlG7YJ8gmrK7%2FGuy3GDy52RY2HMG7OqSkk8Td2B2gf5RbQNKTtdz8ytgU3EK%2FAdPrkCfhyvZGV36rekNU9VueOR99r4dKqgUAx8%2B8u6BhBVd3g%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 723381d77e1380c3-NRT
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":6562,"ds3_builds":{"494325":{"created_at":"2022-06-26T20:24:05Z","updated_at":"2022-06-26T20:24:05Z","author":"Anonymous","description":"","public":true,"gender":"Female","title":"Unkindled
+        Ash","starting_class":"Knight","level":9,"vigor":12,"attunement":10,"endurance":11,"vitality":15,"strength":13,"dexterity":12,"intelligence":9,"faith":9,"luck":7,"hollowing":0,"covenant":"Warriors
+        of Sunlight","two_hand":false,"lh1_infusion":null,"lh2_infusion":null,"lh3_infusion":null,"rh1_infusion":null,"rh2_infusion":null,"rh3_infusion":null,"votes":0,"head_id":null,"body_id":null,"arms_id":null,"legs_id":null,"ring1_id":null,"ring2_id":null,"ring3_id":null,"ring4_id":null,"lh1_id":null,"lh2_id":null,"lh3_id":null,"rh1_id":null,"rh2_id":null,"rh3_id":null,"spell1_id":null,"spell2_id":null,"spell3_id":null,"spell4_id":null,"spell5_id":null,"spell6_id":null,"spell7_id":null,"spell8_id":null,"spell9_id":null,"spell10_id":null,"user_id":null,"id":"494325"},"494253":{"created_at":"2022-06-24T11:18:20Z","updated_at":"2022-06-24T11:18:20Z","author":"Valdrus21
+        ","description":"Souls level 1 build","public":true,"gender":"Female","title":"sl1
+        ","starting_class":"Deprived","level":1,"vigor":10,"attunement":10,"endurance":10,"vitality":10,"strength":10,"dexterity":10,"intelligence":10,"faith":10,"luck":10,"hollowing":0,"covenant":"Warriors
+        of Sunlight","two_hand":true,"lh1_infusion":"normal","lh2_infusion":null,"lh3_infusion":null,"rh1_infusion":"normal","rh2_infusion":null,"rh3_infusion":null,"votes":0,"head_id":62,"body_id":63,"arms_id":11,"legs_id":65,"ring1_id":16,"ring2_id":10,"ring3_id":19,"ring4_id":20,"lh1_id":85,"lh2_id":null,"lh3_id":null,"rh1_id":214,"rh2_id":null,"rh3_id":null,"spell1_id":null,"spell2_id":null,"spell3_id":null,"spell4_id":null,"spell5_id":null,"spell6_id":null,"spell7_id":null,"spell8_id":null,"spell9_id":null,"spell10_id":null,"user_id":null,"id":"494253"},"494163":{"created_at":"2022-06-20T13:22:22Z","updated_at":"2022-06-20T13:22:22Z","author":"Billiam","description":"Playthrough
+        plan","public":true,"gender":"Female","title":"pve glaive/splitleaf","starting_class":"Knight","level":9,"vigor":12,"attunement":10,"endurance":11,"vitality":15,"strength":13,"dexterity":12,"intelligence":9,"faith":9,"luck":7,"hollowing":0,"covenant":"Warriors
+        of Sunlight","two_hand":false,"lh1_infusion":null,"lh2_infusion":null,"lh3_infusion":null,"rh1_infusion":null,"rh2_infusion":null,"rh3_infusion":null,"votes":0,"head_id":null,"body_id":null,"arms_id":null,"legs_id":null,"ring1_id":null,"ring2_id":null,"ring3_id":null,"ring4_id":null,"lh1_id":null,"lh2_id":null,"lh3_id":null,"rh1_id":null,"rh2_id":null,"rh3_id":null,"spell1_id":null,"spell2_id":null,"spell3_id":null,"spell4_id":null,"spell5_id":null,"spell6_id":null,"spell7_id":null,"spell8_id":null,"spell9_id":null,"spell10_id":null,"user_id":null,"id":"494163"},"493971":{"created_at":"2022-06-10T10:18:21Z","updated_at":"2022-06-10T10:18:21Z","author":"Anonymous","description":"","public":true,"gender":"Female","title":"Unkindled
+        Ash","starting_class":"Knight","level":9,"vigor":12,"attunement":10,"endurance":11,"vitality":15,"strength":13,"dexterity":12,"intelligence":9,"faith":9,"luck":7,"hollowing":0,"covenant":"Warriors
+        of Sunlight","two_hand":false,"lh1_infusion":null,"lh2_infusion":null,"lh3_infusion":null,"rh1_infusion":null,"rh2_infusion":null,"rh3_infusion":null,"votes":0,"head_id":null,"body_id":null,"arms_id":null,"legs_id":null,"ring1_id":null,"ring2_id":null,"ring3_id":null,"ring4_id":null,"lh1_id":null,"lh2_id":null,"lh3_id":null,"rh1_id":null,"rh2_id":null,"rh3_id":null,"spell1_id":null,"spell2_id":null,"spell3_id":null,"spell4_id":null,"spell5_id":null,"spell6_id":null,"spell7_id":null,"spell8_id":null,"spell9_id":null,"spell10_id":null,"user_id":null,"id":"493971"},"493665":{"created_at":"2022-05-27T02:10:56Z","updated_at":"2022-05-27T02:10:56Z","author":"Anonymous","description":"","public":true,"gender":"Female","title":"Unkindled
+        Ash","starting_class":"Knight","level":9,"vigor":12,"attunement":10,"endurance":11,"vitality":15,"strength":13,"dexterity":12,"intelligence":9,"faith":9,"luck":7,"hollowing":0,"covenant":"Warriors
+        of Sunlight","two_hand":false,"lh1_infusion":"sharp","lh2_infusion":"hollow","lh3_infusion":null,"rh1_infusion":"sharp","rh2_infusion":"hollow","rh3_infusion":null,"votes":0,"head_id":334,"body_id":39,"arms_id":40,"legs_id":41,"ring1_id":19,"ring2_id":113,"ring3_id":null,"ring4_id":null,"lh1_id":107,"lh2_id":107,"lh3_id":null,"rh1_id":108,"rh2_id":108,"rh3_id":null,"spell1_id":null,"spell2_id":null,"spell3_id":null,"spell4_id":null,"spell5_id":null,"spell6_id":null,"spell7_id":null,"spell8_id":null,"spell9_id":null,"spell10_id":null,"user_id":null,"id":"493665"},"493630":{"created_at":"2022-05-25T10:19:43Z","updated_at":"2022-05-25T10:19:43Z","author":"Anonymous","description":"","public":true,"gender":"Female","title":"Unkindled
+        Ash","starting_class":"Knight","level":9,"vigor":12,"attunement":10,"endurance":11,"vitality":15,"strength":13,"dexterity":12,"intelligence":9,"faith":9,"luck":7,"hollowing":0,"covenant":"Warriors
+        of Sunlight","two_hand":false,"lh1_infusion":"blessed","lh2_infusion":"normal","lh3_infusion":null,"rh1_infusion":"blessed","rh2_infusion":null,"rh3_infusion":null,"votes":0,"head_id":54,"body_id":55,"arms_id":56,"legs_id":61,"ring1_id":116,"ring2_id":19,"ring3_id":113,"ring4_id":8,"lh1_id":219,"lh2_id":172,"lh3_id":null,"rh1_id":176,"rh2_id":null,"rh3_id":null,"spell1_id":null,"spell2_id":null,"spell3_id":null,"spell4_id":null,"spell5_id":null,"spell6_id":null,"spell7_id":null,"spell8_id":null,"spell9_id":null,"spell10_id":null,"user_id":null,"id":"493630"},"493629":{"created_at":"2022-05-25T10:17:04Z","updated_at":"2022-05-25T10:17:04Z","author":"Anonymous","description":"","public":true,"gender":"Female","title":"Unkindled
+        Ash","starting_class":"Knight","level":9,"vigor":12,"attunement":10,"endurance":11,"vitality":15,"strength":13,"dexterity":12,"intelligence":9,"faith":9,"luck":7,"hollowing":0,"covenant":"Warriors
+        of Sunlight","two_hand":false,"lh1_infusion":"blessed","lh2_infusion":"normal","lh3_infusion":null,"rh1_infusion":"blessed","rh2_infusion":null,"rh3_infusion":null,"votes":0,"head_id":54,"body_id":55,"arms_id":56,"legs_id":61,"ring1_id":116,"ring2_id":47,"ring3_id":113,"ring4_id":8,"lh1_id":219,"lh2_id":174,"lh3_id":null,"rh1_id":176,"rh2_id":null,"rh3_id":null,"spell1_id":null,"spell2_id":null,"spell3_id":null,"spell4_id":null,"spell5_id":null,"spell6_id":null,"spell7_id":null,"spell8_id":null,"spell9_id":null,"spell10_id":null,"user_id":null,"id":"493629"},"493628":{"created_at":"2022-05-25T10:16:09Z","updated_at":"2022-05-25T10:16:09Z","author":"Anonymous","description":"","public":true,"gender":"Female","title":"Unkindled
+        Ash","starting_class":"Knight","level":9,"vigor":12,"attunement":10,"endurance":11,"vitality":15,"strength":13,"dexterity":12,"intelligence":9,"faith":9,"luck":7,"hollowing":0,"covenant":"Warriors
+        of Sunlight","two_hand":false,"lh1_infusion":null,"lh2_infusion":null,"lh3_infusion":null,"rh1_infusion":null,"rh2_infusion":null,"rh3_infusion":null,"votes":0,"head_id":54,"body_id":55,"arms_id":56,"legs_id":61,"ring1_id":116,"ring2_id":47,"ring3_id":113,"ring4_id":8,"lh1_id":null,"lh2_id":null,"lh3_id":null,"rh1_id":null,"rh2_id":null,"rh3_id":null,"spell1_id":null,"spell2_id":null,"spell3_id":null,"spell4_id":null,"spell5_id":null,"spell6_id":null,"spell7_id":null,"spell8_id":null,"spell9_id":null,"spell10_id":null,"user_id":null,"id":"493628"},"493568":{"created_at":"2022-05-23T03:46:29Z","updated_at":"2022-05-23T03:46:29Z","author":"Anonymous","description":"","public":true,"gender":"Male","title":"Unkindled
+        Ash","starting_class":"Deprived","level":1,"vigor":10,"attunement":10,"endurance":10,"vitality":10,"strength":10,"dexterity":10,"intelligence":10,"faith":10,"luck":10,"hollowing":0,"covenant":"Rosaria","two_hand":false,"lh1_infusion":null,"lh2_infusion":null,"lh3_infusion":null,"rh1_infusion":null,"rh2_infusion":null,"rh3_infusion":null,"votes":0,"head_id":null,"body_id":null,"arms_id":null,"legs_id":null,"ring1_id":null,"ring2_id":null,"ring3_id":null,"ring4_id":null,"lh1_id":null,"lh2_id":null,"lh3_id":null,"rh1_id":null,"rh2_id":null,"rh3_id":null,"spell1_id":null,"spell2_id":null,"spell3_id":null,"spell4_id":null,"spell5_id":null,"spell6_id":null,"spell7_id":null,"spell8_id":null,"spell9_id":null,"spell10_id":null,"user_id":null,"id":"493568"},"493537":{"created_at":"2022-05-21T12:46:31Z","updated_at":"2022-05-21T12:46:31Z","author":"Magitian
+        Trill","description":"''Thee be careful''\nHave fun with this hard jorney!","public":true,"gender":"Female","title":"5+0","starting_class":"Deprived","level":5,"vigor":10,"attunement":10,"endurance":10,"vitality":10,"strength":10,"dexterity":14,"intelligence":10,"faith":10,"luck":10,"hollowing":0,"covenant":"Warriors
+        of Sunlight","two_hand":true,"lh1_infusion":"normal","lh2_infusion":null,"lh3_infusion":null,"rh1_infusion":"normal","rh2_infusion":null,"rh3_infusion":null,"votes":0,"head_id":331,"body_id":320,"arms_id":85,"legs_id":38,"ring1_id":110,"ring2_id":92,"ring3_id":116,"ring4_id":113,"lh1_id":80,"lh2_id":null,"lh3_id":null,"rh1_id":214,"rh2_id":null,"rh3_id":null,"spell1_id":null,"spell2_id":null,"spell3_id":null,"spell4_id":null,"spell5_id":null,"spell6_id":null,"spell7_id":null,"spell8_id":null,"spell9_id":null,"spell10_id":null,"user_id":null,"id":"493537"},"493525":{"created_at":"2022-05-20T16:42:05Z","updated_at":"2022-05-20T16:42:05Z","author":"Anonymous","description":"","public":true,"gender":"Female","title":"Unkindled
+        Ash","starting_class":"Knight","level":9,"vigor":12,"attunement":10,"endurance":11,"vitality":15,"strength":13,"dexterity":12,"intelligence":9,"faith":9,"luck":7,"hollowing":0,"covenant":"Warriors
+        of Sunlight","two_hand":false,"lh1_infusion":null,"lh2_infusion":null,"lh3_infusion":null,"rh1_infusion":null,"rh2_infusion":null,"rh3_infusion":null,"votes":0,"head_id":null,"body_id":null,"arms_id":null,"legs_id":null,"ring1_id":null,"ring2_id":null,"ring3_id":null,"ring4_id":null,"lh1_id":null,"lh2_id":null,"lh3_id":null,"rh1_id":null,"rh2_id":null,"rh3_id":null,"spell1_id":null,"spell2_id":null,"spell3_id":null,"spell4_id":null,"spell5_id":null,"spell6_id":null,"spell7_id":null,"spell8_id":null,"spell9_id":null,"spell10_id":null,"user_id":null,"id":"493525"},"493472":{"created_at":"2022-05-17T16:03:52Z","updated_at":"2022-05-17T16:03:52Z","author":"Mazin_Basim","description":"","public":true,"gender":"Female","title":"Unkindled
+        Ash","starting_class":"Knight","level":9,"vigor":12,"attunement":10,"endurance":11,"vitality":15,"strength":13,"dexterity":12,"intelligence":9,"faith":9,"luck":7,"hollowing":0,"covenant":"Warriors
+        of Sunlight","two_hand":false,"lh1_infusion":null,"lh2_infusion":null,"lh3_infusion":null,"rh1_infusion":null,"rh2_infusion":null,"rh3_infusion":null,"votes":0,"head_id":null,"body_id":null,"arms_id":null,"legs_id":null,"ring1_id":null,"ring2_id":null,"ring3_id":null,"ring4_id":null,"lh1_id":null,"lh2_id":null,"lh3_id":null,"rh1_id":null,"rh2_id":null,"rh3_id":null,"spell1_id":null,"spell2_id":null,"spell3_id":null,"spell4_id":null,"spell5_id":null,"spell6_id":null,"spell7_id":null,"spell8_id":null,"spell9_id":null,"spell10_id":null,"user_id":"42616","id":"493472"},"493447":{"created_at":"2022-05-15T20:14:16Z","updated_at":"2022-05-15T20:14:16Z","author":"Anonymous","description":"","public":true,"gender":"Male","title":"Unkindled
+        Ash","starting_class":"Thief","level":5,"vigor":10,"attunement":11,"endurance":10,"vitality":9,"strength":9,"dexterity":13,"intelligence":10,"faith":8,"luck":14,"hollowing":0,"covenant":"Spears
+        of the Church","two_hand":false,"lh1_infusion":null,"lh2_infusion":null,"lh3_infusion":null,"rh1_infusion":null,"rh2_infusion":null,"rh3_infusion":null,"votes":0,"head_id":208,"body_id":93,"arms_id":44,"legs_id":8,"ring1_id":null,"ring2_id":null,"ring3_id":null,"ring4_id":null,"lh1_id":null,"lh2_id":null,"lh3_id":null,"rh1_id":null,"rh2_id":null,"rh3_id":null,"spell1_id":null,"spell2_id":null,"spell3_id":null,"spell4_id":null,"spell5_id":null,"spell6_id":null,"spell7_id":null,"spell8_id":null,"spell9_id":null,"spell10_id":null,"user_id":null,"id":"493447"},"493389":{"created_at":"2022-05-12T20:38:46Z","updated_at":"2022-05-12T20:38:46Z","author":"Anonymous","description":"","public":true,"gender":"Female","title":"Unkindled
+        Ash","starting_class":"Knight","level":9,"vigor":12,"attunement":10,"endurance":11,"vitality":15,"strength":13,"dexterity":12,"intelligence":9,"faith":9,"luck":7,"hollowing":0,"covenant":"Warriors
+        of Sunlight","two_hand":false,"lh1_infusion":null,"lh2_infusion":null,"lh3_infusion":null,"rh1_infusion":null,"rh2_infusion":null,"rh3_infusion":null,"votes":0,"head_id":331,"body_id":313,"arms_id":131,"legs_id":340,"ring1_id":null,"ring2_id":null,"ring3_id":null,"ring4_id":null,"lh1_id":null,"lh2_id":null,"lh3_id":null,"rh1_id":null,"rh2_id":null,"rh3_id":null,"spell1_id":null,"spell2_id":null,"spell3_id":null,"spell4_id":null,"spell5_id":null,"spell6_id":null,"spell7_id":null,"spell8_id":null,"spell9_id":null,"spell10_id":null,"user_id":null,"id":"493389"},"493350":{"created_at":"2022-05-10T02:36:59Z","updated_at":"2022-05-10T02:36:59Z","author":"PlatnumGamr
+        X","description":"","public":true,"gender":"Female","title":"Nerna","starting_class":"Sorcerer","level":14,"vigor":10,"attunement":16,"endurance":9,"vitality":7,"strength":7,"dexterity":12,"intelligence":22,"faith":8,"luck":12,"hollowing":0,"covenant":"Warriors
+        of Sunlight","two_hand":false,"lh1_infusion":"normal","lh2_infusion":null,"lh3_infusion":null,"rh1_infusion":"normal","rh2_infusion":"normal","rh3_infusion":null,"votes":0,"head_id":null,"body_id":252,"arms_id":253,"legs_id":254,"ring1_id":57,"ring2_id":null,"ring3_id":null,"ring4_id":null,"lh1_id":199,"lh2_id":null,"lh3_id":null,"rh1_id":145,"rh2_id":48,"rh3_id":null,"spell1_id":54,"spell2_id":46,"spell3_id":null,"spell4_id":null,"spell5_id":null,"spell6_id":null,"spell7_id":null,"spell8_id":null,"spell9_id":null,"spell10_id":null,"user_id":"42578","id":"493350"},"493341":{"created_at":"2022-05-09T17:48:25Z","updated_at":"2022-05-09T17:48:25Z","author":"Anonymous","description":"","public":true,"gender":"Female","title":"Unkindled
+        Ash","starting_class":"Knight","level":9,"vigor":12,"attunement":10,"endurance":11,"vitality":15,"strength":13,"dexterity":12,"intelligence":9,"faith":9,"luck":7,"hollowing":0,"covenant":"Warriors
+        of Sunlight","two_hand":false,"lh1_infusion":null,"lh2_infusion":null,"lh3_infusion":null,"rh1_infusion":null,"rh2_infusion":null,"rh3_infusion":null,"votes":0,"head_id":null,"body_id":null,"arms_id":null,"legs_id":null,"ring1_id":null,"ring2_id":null,"ring3_id":null,"ring4_id":null,"lh1_id":null,"lh2_id":null,"lh3_id":null,"rh1_id":null,"rh2_id":null,"rh3_id":null,"spell1_id":null,"spell2_id":null,"spell3_id":null,"spell4_id":null,"spell5_id":null,"spell6_id":null,"spell7_id":null,"spell8_id":null,"spell9_id":null,"spell10_id":null,"user_id":null,"id":"493341"},"492879":{"created_at":"2022-04-21T20:21:21Z","updated_at":"2022-04-21T20:21:21Z","author":"Sulak","description":"equipment
+        that I used to kill Twin Princes with no soul level upgrades on Dark Souls
+        3","public":true,"gender":"Male","title":"Twin Princes SL1","starting_class":"Deprived","level":1,"vigor":10,"attunement":10,"endurance":10,"vitality":10,"strength":10,"dexterity":10,"intelligence":10,"faith":10,"luck":10,"hollowing":0,"covenant":"Blades
+        of the Darkmoon","two_hand":false,"lh1_infusion":"normal","lh2_infusion":null,"lh3_infusion":null,"rh1_infusion":"raw","rh2_infusion":null,"rh3_infusion":null,"votes":0,"head_id":162,"body_id":163,"arms_id":164,"legs_id":165,"ring1_id":4,"ring2_id":19,"ring3_id":92,"ring4_id":93,"lh1_id":214,"lh2_id":null,"lh3_id":null,"rh1_id":158,"rh2_id":null,"rh3_id":null,"spell1_id":null,"spell2_id":null,"spell3_id":null,"spell4_id":null,"spell5_id":null,"spell6_id":null,"spell7_id":null,"spell8_id":null,"spell9_id":null,"spell10_id":null,"user_id":"42458","id":"492879"},"492791":{"created_at":"2022-04-17T14:49:00Z","updated_at":"2022-04-17T14:49:00Z","author":"Anonymous","description":"","public":true,"gender":"Male","title":"Matriggs","starting_class":"Deprived","level":1,"vigor":10,"attunement":10,"endurance":10,"vitality":10,"strength":10,"dexterity":10,"intelligence":10,"faith":10,"luck":10,"hollowing":0,"covenant":"Way
+        of Blue","two_hand":false,"lh1_infusion":"normal","lh2_infusion":null,"lh3_infusion":null,"rh1_infusion":null,"rh2_infusion":null,"rh3_infusion":null,"votes":0,"head_id":null,"body_id":null,"arms_id":null,"legs_id":null,"ring1_id":null,"ring2_id":null,"ring3_id":null,"ring4_id":null,"lh1_id":84,"lh2_id":null,"lh3_id":null,"rh1_id":null,"rh2_id":null,"rh3_id":null,"spell1_id":null,"spell2_id":null,"spell3_id":null,"spell4_id":null,"spell5_id":null,"spell6_id":null,"spell7_id":null,"spell8_id":null,"spell9_id":null,"spell10_id":null,"user_id":null,"id":"492791"},"492670":{"created_at":"2022-04-14T17:54:33Z","updated_at":"2022-04-14T17:54:33Z","author":"Anonymous","description":"","public":true,"gender":"Female","title":"Unkindled
+        Ash","starting_class":"Warrior","level":7,"vigor":14,"attunement":6,"endurance":12,"vitality":11,"strength":16,"dexterity":9,"intelligence":8,"faith":9,"luck":11,"hollowing":0,"covenant":"Warriors
+        of Sunlight","two_hand":false,"lh1_infusion":"normal","lh2_infusion":null,"lh3_infusion":null,"rh1_infusion":"normal","rh2_infusion":null,"rh3_infusion":null,"votes":0,"head_id":158,"body_id":159,"arms_id":160,"legs_id":161,"ring1_id":110,"ring2_id":113,"ring3_id":19,"ring4_id":null,"lh1_id":65,"lh2_id":null,"lh3_id":null,"rh1_id":241,"rh2_id":null,"rh3_id":null,"spell1_id":null,"spell2_id":null,"spell3_id":null,"spell4_id":null,"spell5_id":null,"spell6_id":null,"spell7_id":null,"spell8_id":null,"spell9_id":null,"spell10_id":null,"user_id":null,"id":"492670"},"492550":{"created_at":"2022-04-11T00:15:08Z","updated_at":"2022-04-11T00:15:08Z","author":"Anonymous","description":"","public":true,"gender":"Female","title":"Unkindled
+        Ash","starting_class":"Knight","level":9,"vigor":12,"attunement":10,"endurance":11,"vitality":15,"strength":13,"dexterity":12,"intelligence":9,"faith":9,"luck":7,"hollowing":0,"covenant":"Warriors
+        of Sunlight","two_hand":false,"lh1_infusion":null,"lh2_infusion":null,"lh3_infusion":null,"rh1_infusion":null,"rh2_infusion":null,"rh3_infusion":null,"votes":0,"head_id":null,"body_id":null,"arms_id":null,"legs_id":null,"ring1_id":null,"ring2_id":null,"ring3_id":null,"ring4_id":null,"lh1_id":null,"lh2_id":null,"lh3_id":null,"rh1_id":null,"rh2_id":null,"rh3_id":null,"spell1_id":null,"spell2_id":null,"spell3_id":null,"spell4_id":null,"spell5_id":null,"spell6_id":null,"spell7_id":null,"spell8_id":null,"spell9_id":null,"spell10_id":null,"user_id":null,"id":"492550"}},"results":[{"key":"ds3_builds","id":"494325"},{"key":"ds3_builds","id":"494253"},{"key":"ds3_builds","id":"494163"},{"key":"ds3_builds","id":"493971"},{"key":"ds3_builds","id":"493665"},{"key":"ds3_builds","id":"493630"},{"key":"ds3_builds","id":"493629"},{"key":"ds3_builds","id":"493628"},{"key":"ds3_builds","id":"493568"},{"key":"ds3_builds","id":"493537"},{"key":"ds3_builds","id":"493525"},{"key":"ds3_builds","id":"493472"},{"key":"ds3_builds","id":"493447"},{"key":"ds3_builds","id":"493389"},{"key":"ds3_builds","id":"493350"},{"key":"ds3_builds","id":"493341"},{"key":"ds3_builds","id":"492879"},{"key":"ds3_builds","id":"492791"},{"key":"ds3_builds","id":"492670"},{"key":"ds3_builds","id":"492550"}]}'
+  recorded_at: Thu, 30 Jun 2022 02:35:14 GMT
+- request:
+    method: get
+    uri: https://mugenmonkey.com/api/v0/ds3_rings
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Date:
+      - Thu, 30 Jun 2022 02:35:13 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Request-Id:
+      - 73fbb71b-db21-4ed1-a1f9-df5d8e66c1d0
+      X-Runtime:
+      - '0.001598'
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubDomains
+      Via:
+      - 1.1 vegur
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=vIXregqsJ5bwYQ7KHfIVsDAU%2Bjusey2ao0zxvwa5idTaZO72urbZCbMdBru0t7wtxYplzgpBdBjwvkqbqv4IuwPtpHndmyBWDYbk%2B7%2F4wOpdepl2u4YhzNUcdoUCEzpKtME%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 723381dcafe234bd-NRT
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        <!DOCTYPE html>
+        <html>
+        <head>
+          <title>The page you were looking for doesn't exist (404)</title>
+          <meta name="viewport" content="width=device-width,initial-scale=1">
+          <style>
+          body {
+            background-color: #EFEFEF;
+            color: #2E2F30;
+            text-align: center;
+            font-family: arial, sans-serif;
+            margin: 0;
+          }
+
+          div.dialog {
+            width: 95%;
+            max-width: 33em;
+            margin: 4em auto 0;
+          }
+
+          div.dialog > div {
+            border: 1px solid #CCC;
+            border-right-color: #999;
+            border-left-color: #999;
+            border-bottom-color: #BBB;
+            border-top: #B00100 solid 4px;
+            border-top-left-radius: 9px;
+            border-top-right-radius: 9px;
+            background-color: white;
+            padding: 7px 12% 0;
+            box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+          }
+
+          h1 {
+            font-size: 100%;
+            color: #730E15;
+            line-height: 1.5em;
+          }
+
+          div.dialog > p {
+            margin: 0 0 1em;
+            padding: 1em;
+            background-color: #F7F7F7;
+            border: 1px solid #CCC;
+            border-right-color: #999;
+            border-left-color: #999;
+            border-bottom-color: #999;
+            border-bottom-left-radius: 4px;
+            border-bottom-right-radius: 4px;
+            border-top-color: #DADADA;
+            color: #666;
+            box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+          }
+          </style>
+        </head>
+
+        <body>
+          <!-- This file lives in public/404.html -->
+          <div class="dialog">
+            <div>
+              <h1>The page you were looking for doesn't exist.</h1>
+              <p>You may have mistyped the address or the page may have moved.</p>
+            </div>
+            <p>If you are the application owner check the logs for more information.</p>
+          </div>
+        </body>
+        </html>
+  recorded_at: Thu, 30 Jun 2022 02:35:14 GMT
+recorded_with: VCR 6.1.0

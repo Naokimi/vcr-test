@@ -1,0 +1,405 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://mugenmonkey.com/api/v0/ds3_weapons
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Date:
+      - Thu, 30 Jun 2022 02:35:13 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Request-Id:
+      - 5def666e-1480-4833-a3c5-1ebdf550ffad
+      X-Runtime:
+      - '0.001547'
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubDomains
+      Via:
+      - 1.1 vegur
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=kQBkGhbOby%2BXw3nEjltwKuZ%2BfCKydNE4dj0nyn%2B7oIuQXThxZbvAb7SvO07WQZQTugLVHXPuVAb6HfmvtzY5%2B9P%2BFl2kfBaV%2FKjVT7pFQuEZjGF%2BXYBceF690kLSIj5bqOQ%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 723381e05e38afca-NRT
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        <!DOCTYPE html>
+        <html>
+        <head>
+          <title>The page you were looking for doesn't exist (404)</title>
+          <meta name="viewport" content="width=device-width,initial-scale=1">
+          <style>
+          body {
+            background-color: #EFEFEF;
+            color: #2E2F30;
+            text-align: center;
+            font-family: arial, sans-serif;
+            margin: 0;
+          }
+
+          div.dialog {
+            width: 95%;
+            max-width: 33em;
+            margin: 4em auto 0;
+          }
+
+          div.dialog > div {
+            border: 1px solid #CCC;
+            border-right-color: #999;
+            border-left-color: #999;
+            border-bottom-color: #BBB;
+            border-top: #B00100 solid 4px;
+            border-top-left-radius: 9px;
+            border-top-right-radius: 9px;
+            background-color: white;
+            padding: 7px 12% 0;
+            box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+          }
+
+          h1 {
+            font-size: 100%;
+            color: #730E15;
+            line-height: 1.5em;
+          }
+
+          div.dialog > p {
+            margin: 0 0 1em;
+            padding: 1em;
+            background-color: #F7F7F7;
+            border: 1px solid #CCC;
+            border-right-color: #999;
+            border-left-color: #999;
+            border-bottom-color: #999;
+            border-bottom-left-radius: 4px;
+            border-bottom-right-radius: 4px;
+            border-top-color: #DADADA;
+            color: #666;
+            box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+          }
+          </style>
+        </head>
+
+        <body>
+          <!-- This file lives in public/404.html -->
+          <div class="dialog">
+            <div>
+              <h1>The page you were looking for doesn't exist.</h1>
+              <p>You may have mistyped the address or the page may have moved.</p>
+            </div>
+            <p>If you are the application owner check the logs for more information.</p>
+          </div>
+        </body>
+        </html>
+  recorded_at: Thu, 30 Jun 2022 02:35:14 GMT
+- request:
+    method: get
+    uri: http://mugenmonkey.com/api/v0/ds3_builds?level_from=20
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Date:
+      - Thu, 30 Jun 2022 02:35:13 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - max-age=3600
+      Expires:
+      - Thu, 30 Jun 2022 03:35:13 GMT
+      Location:
+      - https://mugenmonkey.com/api/v0/ds3_builds?level_from=20
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=JobrhfmuXj4sE7L7X5SlrIdlNsK6fxg2hKIGKy7zPRvm28C9Kvaird92UU1SV9r5BH0jQtaxDXzIYNC%2BCQ58zjCVIjDqJFpoW06fEtBj9jXVnNCBlfvIgCSZg%2FzioAMUqM0%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Vary:
+      - Accept-Encoding
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 723381e1ae578a6f-NRT
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: UTF-8
+      string: ''
+  recorded_at: Thu, 30 Jun 2022 02:35:14 GMT
+- request:
+    method: get
+    uri: https://mugenmonkey.com/api/v0/ds3_builds?level_from=20
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 30 Jun 2022 02:35:14 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Cache-Control:
+      - no-store
+      Pragma:
+      - no-cache
+      Expires:
+      - Fri, 01 Jan 1990 00:00:00 GMT
+      Vary:
+      - Accept
+      Etag:
+      - W/"710daf658a65370057a231b0fbe52a03"
+      X-Request-Id:
+      - 4dec8c87-4cb0-4cce-8d07-1ded692ab63e
+      X-Runtime:
+      - '0.260312'
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubDomains
+      Via:
+      - 1.1 vegur
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=X87VZgZfb5lL%2BugwQE2qfMk66XwwpxYCXt21nzEpcD6AG5rTykFdmd%2F2t9CB%2FlNKdDvO%2BBcjeoLl6%2B08KJ1FCEA9rVe3S%2BEwYaaXCgf01kB8lRnSm5wiC6xCc30bAoCm%2BRQ%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 723381e1f952af30-NRT
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":232696,"ds3_builds":{"494397":{"created_at":"2022-06-29T23:17:19Z","updated_at":"2022-06-29T23:17:19Z","author":"Anonymous","description":"100%
+        stability","public":true,"gender":"Male","title":"Great Shield Menace","starting_class":"Knight","level":83,"vigor":40,"attunement":10,"endurance":11,"vitality":28,"strength":40,"dexterity":17,"intelligence":10,"faith":9,"luck":7,"hollowing":0,"covenant":"Warriors
+        of Sunlight","two_hand":false,"lh1_infusion":"normal","lh2_infusion":"normal","lh3_infusion":null,"rh1_infusion":"heavy","rh2_infusion":null,"rh3_infusion":null,"votes":0,"head_id":186,"body_id":159,"arms_id":56,"legs_id":340,"ring1_id":16,"ring2_id":10,"ring3_id":13,"ring4_id":63,"lh1_id":240,"lh2_id":145,"lh3_id":null,"rh1_id":142,"rh2_id":null,"rh3_id":null,"spell1_id":51,"spell2_id":null,"spell3_id":null,"spell4_id":null,"spell5_id":null,"spell6_id":null,"spell7_id":null,"spell8_id":null,"spell9_id":null,"spell10_id":null,"user_id":null,"id":"494397"},"494393":{"created_at":"2022-06-29T22:24:14Z","updated_at":"2022-06-29T22:24:14Z","author":"Anonymous","description":"","public":true,"gender":"Female","title":"Unkindled
+        Ash","starting_class":"Knight","level":335,"vigor":30,"attunement":10,"endurance":30,"vitality":30,"strength":66,"dexterity":99,"intelligence":30,"faith":30,"luck":99,"hollowing":0,"covenant":"Warriors
+        of Sunlight","two_hand":true,"lh1_infusion":"normal","lh2_infusion":null,"lh3_infusion":null,"rh1_infusion":"normal","rh2_infusion":"refined","rh3_infusion":null,"votes":0,"head_id":null,"body_id":null,"arms_id":null,"legs_id":null,"ring1_id":110,"ring2_id":114,"ring3_id":115,"ring4_id":19,"lh1_id":223,"lh2_id":null,"lh3_id":null,"rh1_id":77,"rh2_id":160,"rh3_id":null,"spell1_id":null,"spell2_id":null,"spell3_id":null,"spell4_id":null,"spell5_id":null,"spell6_id":null,"spell7_id":null,"spell8_id":null,"spell9_id":null,"spell10_id":null,"user_id":null,"id":"494393"},"494388":{"created_at":"2022-06-29T18:58:38Z","updated_at":"2022-06-29T18:58:38Z","author":"Anonymous","description":"","public":true,"gender":"Male","title":"Willky","starting_class":"Knight","level":133,"vigor":40,"attunement":14,"endurance":29,"vitality":30,"strength":41,"dexterity":41,"intelligence":10,"faith":10,"luck":7,"hollowing":0,"covenant":"Aldrich
+        Faithful","two_hand":false,"lh1_infusion":null,"lh2_infusion":null,"lh3_infusion":null,"rh1_infusion":null,"rh2_infusion":null,"rh3_infusion":null,"votes":0,"head_id":133,"body_id":134,"arms_id":160,"legs_id":161,"ring1_id":113,"ring2_id":19,"ring3_id":7,"ring4_id":112,"lh1_id":null,"lh2_id":null,"lh3_id":null,"rh1_id":null,"rh2_id":null,"rh3_id":null,"spell1_id":69,"spell2_id":null,"spell3_id":null,"spell4_id":null,"spell5_id":null,"spell6_id":null,"spell7_id":null,"spell8_id":null,"spell9_id":null,"spell10_id":null,"user_id":null,"id":"494388"},"494386":{"created_at":"2022-06-29T15:57:54Z","updated_at":"2022-06-29T19:12:04Z","author":"TBASARAsmt","description":"Cry","public":true,"gender":"Female","title":"Unkindled
+        Ash","starting_class":"Knight","level":157,"vigor":40,"attunement":24,"endurance":40,"vitality":18,"strength":50,"dexterity":17,"intelligence":10,"faith":40,"luck":7,"hollowing":0,"covenant":"Warriors
+        of Sunlight","two_hand":false,"lh1_infusion":"normal","lh2_infusion":"heavy","lh3_infusion":null,"rh1_infusion":"normal","rh2_infusion":"heavy","rh3_infusion":null,"votes":0,"head_id":null,"body_id":null,"arms_id":null,"legs_id":null,"ring1_id":110,"ring2_id":116,"ring3_id":113,"ring4_id":111,"lh1_id":156,"lh2_id":165,"lh3_id":null,"rh1_id":71,"rh2_id":88,"rh3_id":null,"spell1_id":72,"spell2_id":null,"spell3_id":91,"spell4_id":null,"spell5_id":null,"spell6_id":null,"spell7_id":null,"spell8_id":null,"spell9_id":null,"spell10_id":null,"user_id":"42761","id":"494386"},"494382":{"created_at":"2022-06-29T00:36:06Z","updated_at":"2022-06-29T00:36:06Z","author":"Mandus
+        The Mad","description":"","public":true,"gender":"Male","title":"Cathedral
+        Morne","starting_class":"Warrior","level":130,"vigor":40,"attunement":6,"endurance":30,"vitality":35,"strength":50,"dexterity":9,"intelligence":8,"faith":30,"luck":11,"hollowing":0,"covenant":"Warriors
+        of Sunlight","two_hand":true,"lh1_infusion":null,"lh2_infusion":null,"lh3_infusion":null,"rh1_infusion":"normal","rh2_infusion":null,"rh3_infusion":null,"votes":0,"head_id":58,"body_id":59,"arms_id":60,"legs_id":61,"ring1_id":113,"ring2_id":7,"ring3_id":116,"ring4_id":110,"lh1_id":null,"lh2_id":null,"lh3_id":null,"rh1_id":60,"rh2_id":null,"rh3_id":null,"spell1_id":null,"spell2_id":null,"spell3_id":null,"spell4_id":null,"spell5_id":null,"spell6_id":null,"spell7_id":null,"spell8_id":null,"spell9_id":null,"spell10_id":null,"user_id":"42766","id":"494382"},"494381":{"created_at":"2022-06-29T00:33:38Z","updated_at":"2022-06-29T00:33:38Z","author":"Mandus
+        The Mad","description":"","public":true,"gender":"Male","title":"Cathedral
+        Scythe","starting_class":"Knight","level":130,"vigor":40,"attunement":15,"endurance":30,"vitality":23,"strength":13,"dexterity":40,"intelligence":40,"faith":11,"luck":7,"hollowing":0,"covenant":"Warriors
+        of Sunlight","two_hand":true,"lh1_infusion":null,"lh2_infusion":null,"lh3_infusion":null,"rh1_infusion":"normal","rh2_infusion":null,"rh3_infusion":null,"votes":0,"head_id":58,"body_id":59,"arms_id":60,"legs_id":61,"ring1_id":113,"ring2_id":7,"ring3_id":116,"ring4_id":110,"lh1_id":null,"lh2_id":null,"lh3_id":null,"rh1_id":258,"rh2_id":null,"rh3_id":null,"spell1_id":null,"spell2_id":null,"spell3_id":null,"spell4_id":null,"spell5_id":null,"spell6_id":null,"spell7_id":null,"spell8_id":null,"spell9_id":null,"spell10_id":null,"user_id":"42766","id":"494381"},"494380":{"created_at":"2022-06-29T00:28:52Z","updated_at":"2022-06-29T00:28:52Z","author":"Mandus
+        The Mad","description":"","public":true,"gender":"Male","title":"Cathedral
+        Pyre","starting_class":"Pyromancer","level":129,"vigor":30,"attunement":40,"endurance":30,"vitality":9,"strength":12,"dexterity":10,"intelligence":40,"faith":40,"luck":7,"hollowing":0,"covenant":"Warriors
+        of Sunlight","two_hand":false,"lh1_infusion":"normal","lh2_infusion":null,"lh3_infusion":null,"rh1_infusion":"normal","rh2_infusion":null,"rh3_infusion":null,"votes":0,"head_id":58,"body_id":59,"arms_id":60,"legs_id":61,"ring1_id":113,"ring2_id":116,"ring3_id":108,"ring4_id":60,"lh1_id":248,"lh2_id":null,"lh3_id":null,"rh1_id":248,"rh2_id":null,"rh3_id":null,"spell1_id":null,"spell2_id":null,"spell3_id":null,"spell4_id":null,"spell5_id":null,"spell6_id":null,"spell7_id":null,"spell8_id":null,"spell9_id":null,"spell10_id":null,"user_id":"42766","id":"494380"},"494379":{"created_at":"2022-06-28T23:59:17Z","updated_at":"2022-06-28T23:59:17Z","author":"Mandus
+        The Mad","description":"","public":true,"gender":"Male","title":"Knight","starting_class":"Knight","level":130,"vigor":50,"attunement":10,"endurance":35,"vitality":19,"strength":40,"dexterity":40,"intelligence":9,"faith":9,"luck":7,"hollowing":0,"covenant":"Warriors
+        of Sunlight","two_hand":false,"lh1_infusion":null,"lh2_infusion":null,"lh3_infusion":null,"rh1_infusion":"normal","rh2_infusion":null,"rh3_infusion":null,"votes":0,"head_id":170,"body_id":171,"arms_id":172,"legs_id":173,"ring1_id":113,"ring2_id":7,"ring3_id":116,"ring4_id":110,"lh1_id":null,"lh2_id":null,"lh3_id":null,"rh1_id":283,"rh2_id":null,"rh3_id":null,"spell1_id":null,"spell2_id":null,"spell3_id":null,"spell4_id":null,"spell5_id":null,"spell6_id":null,"spell7_id":null,"spell8_id":null,"spell9_id":null,"spell10_id":null,"user_id":"42766","id":"494379"},"494378":{"created_at":"2022-06-28T23:49:26Z","updated_at":"2022-06-28T23:49:26Z","author":"Mandus
+        The Mad","description":"","public":true,"gender":"Male","title":"Mercenary","starting_class":"Mercenary","level":130,"vigor":40,"attunement":15,"endurance":30,"vitality":10,"strength":20,"dexterity":77,"intelligence":10,"faith":8,"luck":9,"hollowing":0,"covenant":"Warriors
+        of Sunlight","two_hand":false,"lh1_infusion":null,"lh2_infusion":null,"lh3_infusion":null,"rh1_infusion":"sharp","rh2_infusion":null,"rh3_infusion":null,"votes":0,"head_id":21,"body_id":22,"arms_id":23,"legs_id":24,"ring1_id":113,"ring2_id":7,"ring3_id":110,"ring4_id":94,"lh1_id":null,"lh2_id":null,"lh3_id":null,"rh1_id":24,"rh2_id":null,"rh3_id":null,"spell1_id":null,"spell2_id":null,"spell3_id":null,"spell4_id":null,"spell5_id":null,"spell6_id":null,"spell7_id":null,"spell8_id":null,"spell9_id":null,"spell10_id":null,"user_id":"42766","id":"494378"},"494377":{"created_at":"2022-06-28T23:40:22Z","updated_at":"2022-06-28T23:40:22Z","author":"Mandus
+        The Mad","description":"","public":true,"gender":"Male","title":"Iron Knight","starting_class":"Knight","level":130,"vigor":40,"attunement":10,"endurance":29,"vitality":37,"strength":60,"dexterity":18,"intelligence":9,"faith":9,"luck":7,"hollowing":0,"covenant":"Warriors
+        of Sunlight","two_hand":true,"lh1_infusion":"normal","lh2_infusion":null,"lh3_infusion":null,"rh1_infusion":"normal","rh2_infusion":null,"rh3_infusion":null,"votes":0,"head_id":35,"body_id":36,"arms_id":37,"legs_id":38,"ring1_id":113,"ring2_id":7,"ring3_id":116,"ring4_id":110,"lh1_id":null,"lh2_id":null,"lh3_id":null,"rh1_id":272,"rh2_id":null,"rh3_id":null,"spell1_id":null,"spell2_id":null,"spell3_id":null,"spell4_id":null,"spell5_id":null,"spell6_id":null,"spell7_id":null,"spell8_id":null,"spell9_id":null,"spell10_id":null,"user_id":"42766","id":"494377"},"494376":{"created_at":"2022-06-28T23:30:33Z","updated_at":"2022-06-28T23:30:33Z","author":"Mandus
+        The Mad","description":"","public":true,"gender":"Male","title":"Cathedral
+        Mage","starting_class":"Sorcerer","level":130,"vigor":40,"attunement":40,"endurance":29,"vitality":12,"strength":7,"dexterity":12,"intelligence":60,"faith":7,"luck":12,"hollowing":0,"covenant":"Warriors
+        of Sunlight","two_hand":true,"lh1_infusion":"normal","lh2_infusion":null,"lh3_infusion":null,"rh1_infusion":"normal","rh2_infusion":null,"rh3_infusion":null,"votes":0,"head_id":58,"body_id":59,"arms_id":60,"legs_id":61,"ring1_id":113,"ring2_id":116,"ring3_id":108,"ring4_id":58,"lh1_id":null,"lh2_id":null,"lh3_id":null,"rh1_id":146,"rh2_id":null,"rh3_id":null,"spell1_id":null,"spell2_id":null,"spell3_id":null,"spell4_id":null,"spell5_id":null,"spell6_id":null,"spell7_id":null,"spell8_id":null,"spell9_id":null,"spell10_id":null,"user_id":"42766","id":"494376"},"494375":{"created_at":"2022-06-28T23:17:34Z","updated_at":"2022-06-28T23:17:34Z","author":"Mandus
+        The Mad","description":"","public":true,"gender":"Male","title":"Cathedral
+        Cleric","starting_class":"Deprived","level":130,"vigor":40,"attunement":40,"endurance":29,"vitality":10,"strength":10,"dexterity":10,"intelligence":10,"faith":60,"luck":10,"hollowing":0,"covenant":"Warriors
+        of Sunlight","two_hand":false,"lh1_infusion":"normal","lh2_infusion":null,"lh3_infusion":null,"rh1_infusion":"normal","rh2_infusion":null,"rh3_infusion":null,"votes":0,"head_id":58,"body_id":59,"arms_id":60,"legs_id":61,"ring1_id":113,"ring2_id":116,"ring3_id":108,"ring4_id":62,"lh1_id":175,"lh2_id":null,"lh3_id":null,"rh1_id":126,"rh2_id":null,"rh3_id":null,"spell1_id":null,"spell2_id":null,"spell3_id":null,"spell4_id":null,"spell5_id":null,"spell6_id":null,"spell7_id":null,"spell8_id":null,"spell9_id":null,"spell10_id":null,"user_id":"42766","id":"494375"},"494374":{"created_at":"2022-06-28T23:11:36Z","updated_at":"2022-06-28T23:17:10Z","author":"Mandus
+        The Mad","description":"","public":true,"gender":"Male","title":"Lothric Knight","starting_class":"Knight","level":130,"vigor":50,"attunement":10,"endurance":40,"vitality":22,"strength":56,"dexterity":16,"intelligence":9,"faith":9,"luck":7,"hollowing":0,"covenant":"Warriors
+        of Sunlight","two_hand":true,"lh1_infusion":"normal","lh2_infusion":null,"lh3_infusion":null,"rh1_infusion":"heavy","rh2_infusion":null,"rh3_infusion":null,"votes":0,"head_id":182,"body_id":183,"arms_id":184,"legs_id":185,"ring1_id":113,"ring2_id":7,"ring3_id":116,"ring4_id":110,"lh1_id":null,"lh2_id":null,"lh3_id":null,"rh1_id":184,"rh2_id":null,"rh3_id":null,"spell1_id":null,"spell2_id":null,"spell3_id":null,"spell4_id":null,"spell5_id":null,"spell6_id":null,"spell7_id":null,"spell8_id":null,"spell9_id":null,"spell10_id":null,"user_id":"42766","id":"494374"},"494373":{"created_at":"2022-06-28T23:04:56Z","updated_at":"2022-06-28T23:04:56Z","author":"Mandus
+        The Mad","description":"","public":true,"gender":"Male","title":"Cathedral
+        Knight","starting_class":"Warrior","level":130,"vigor":50,"attunement":6,"endurance":40,"vitality":25,"strength":60,"dexterity":10,"intelligence":8,"faith":9,"luck":11,"hollowing":0,"covenant":"Warriors
+        of Sunlight","two_hand":true,"lh1_infusion":null,"lh2_infusion":null,"lh3_infusion":null,"rh1_infusion":"heavy","rh2_infusion":null,"rh3_infusion":null,"votes":0,"head_id":58,"body_id":59,"arms_id":60,"legs_id":61,"ring1_id":113,"ring2_id":7,"ring3_id":116,"ring4_id":110,"lh1_id":null,"lh2_id":null,"lh3_id":null,"rh1_id":182,"rh2_id":null,"rh3_id":null,"spell1_id":null,"spell2_id":null,"spell3_id":null,"spell4_id":null,"spell5_id":null,"spell6_id":null,"spell7_id":null,"spell8_id":null,"spell9_id":null,"spell10_id":null,"user_id":"42766","id":"494373"},"494366":{"created_at":"2022-06-28T16:19:14Z","updated_at":"2022-06-28T16:19:14Z","author":"kvithelm","description":"My
+        ideal pyro","public":true,"gender":"Female","title":"Lina","starting_class":"Pyromancer","level":120,"vigor":28,"attunement":24,"endurance":30,"vitality":8,"strength":12,"dexterity":20,"intelligence":40,"faith":40,"luck":7,"hollowing":0,"covenant":"Rosaria","two_hand":false,"lh1_infusion":"normal","lh2_infusion":"normal","lh3_infusion":"normal","rh1_infusion":"normal","rh2_infusion":"normal","rh3_infusion":"normal","votes":0,"head_id":null,"body_id":351,"arms_id":352,"legs_id":353,"ring1_id":19,"ring2_id":59,"ring3_id":67,"ring4_id":60,"lh1_id":248,"lh2_id":null,"lh3_id":null,"rh1_id":248,"rh2_id":null,"rh3_id":null,"spell1_id":null,"spell2_id":null,"spell3_id":null,"spell4_id":null,"spell5_id":null,"spell6_id":null,"spell7_id":null,"spell8_id":null,"spell9_id":null,"spell10_id":null,"user_id":null,"id":"494366"},"494362":{"created_at":"2022-06-28T12:31:52Z","updated_at":"2022-06-28T12:31:52Z","author":"Anonymous","description":"Flexible
+        faith build","public":true,"gender":"Male","title":"Example build","starting_class":"Deprived","level":125,"vigor":39,"attunement":18,"endurance":20,"vitality":10,"strength":26,"dexterity":20,"intelligence":11,"faith":60,"luck":10,"hollowing":0,"covenant":"Warriors
+        of Sunlight","two_hand":true,"lh1_infusion":"blessed","lh2_infusion":"normal","lh3_infusion":null,"rh1_infusion":"normal","rh2_infusion":null,"rh3_infusion":null,"votes":0,"head_id":133,"body_id":134,"arms_id":135,"legs_id":136,"ring1_id":113,"ring2_id":116,"ring3_id":7,"ring4_id":110,"lh1_id":184,"lh2_id":175,"lh3_id":null,"rh1_id":148,"rh2_id":null,"rh3_id":null,"spell1_id":105,"spell2_id":69,"spell3_id":null,"spell4_id":null,"spell5_id":null,"spell6_id":null,"spell7_id":null,"spell8_id":null,"spell9_id":null,"spell10_id":null,"user_id":null,"id":"494362"},"494361":{"created_at":"2022-06-28T11:52:34Z","updated_at":"2022-06-28T11:52:34Z","author":"Anonymous","description":"","public":true,"gender":"Female","title":"Unkindled
+        Ash","starting_class":"Sorcerer","level":150,"vigor":30,"attunement":40,"endurance":25,"vitality":17,"strength":16,"dexterity":12,"intelligence":80,"faith":7,"luck":12,"hollowing":0,"covenant":"Warriors
+        of Sunlight","two_hand":false,"lh1_infusion":"normal","lh2_infusion":"normal","lh3_infusion":"normal","rh1_infusion":"normal","rh2_infusion":"normal","rh3_infusion":"raw","votes":0,"head_id":2,"body_id":272,"arms_id":273,"legs_id":274,"ring1_id":57,"ring2_id":58,"ring3_id":86,"ring4_id":null,"lh1_id":146,"lh2_id":224,"lh3_id":249,"rh1_id":84,"rh2_id":null,"rh3_id":155,"spell1_id":null,"spell2_id":null,"spell3_id":null,"spell4_id":null,"spell5_id":null,"spell6_id":null,"spell7_id":null,"spell8_id":null,"spell9_id":null,"spell10_id":null,"user_id":null,"id":"494361"},"494358":{"created_at":"2022-06-28T05:30:01Z","updated_at":"2022-06-28T05:30:01Z","author":"Nigh","description":"","public":true,"gender":"Male","title":"John
+        Badguy","starting_class":"Mercenary","level":41,"vigor":30,"attunement":12,"endurance":25,"vitality":10,"strength":10,"dexterity":16,"intelligence":10,"faith":8,"luck":9,"hollowing":0,"covenant":"Mound
+        Makers","two_hand":false,"lh1_infusion":null,"lh2_infusion":null,"lh3_infusion":null,"rh1_infusion":null,"rh2_infusion":null,"rh3_infusion":null,"votes":0,"head_id":29,"body_id":118,"arms_id":261,"legs_id":108,"ring1_id":113,"ring2_id":110,"ring3_id":9,"ring4_id":null,"lh1_id":null,"lh2_id":null,"lh3_id":null,"rh1_id":null,"rh2_id":null,"rh3_id":null,"spell1_id":null,"spell2_id":null,"spell3_id":null,"spell4_id":null,"spell5_id":null,"spell6_id":null,"spell7_id":null,"spell8_id":null,"spell9_id":null,"spell10_id":null,"user_id":"39314","id":"494358"},"494344":{"created_at":"2022-06-27T17:00:29Z","updated_at":"2022-06-27T17:00:29Z","author":"Anonymous","description":"Dark
+        build+Fashion souls","public":true,"gender":"Female","title":"Dark spooky
+        skeleton","starting_class":"Pyromancer","level":105,"vigor":20,"attunement":30,"endurance":25,"vitality":16,"strength":19,"dexterity":15,"intelligence":32,"faith":30,"luck":7,"hollowing":0,"covenant":"Rosaria","two_hand":false,"lh1_infusion":"normal","lh2_infusion":"normal","lh3_infusion":"normal","rh1_infusion":"normal","rh2_infusion":"dark","rh3_infusion":null,"votes":0,"head_id":87,"body_id":88,"arms_id":89,"legs_id":90,"ring1_id":58,"ring2_id":19,"ring3_id":89,"ring4_id":113,"lh1_id":54,"lh2_id":150,"lh3_id":123,"rh1_id":275,"rh2_id":165,"rh3_id":null,"spell1_id":35,"spell2_id":87,"spell3_id":28,"spell4_id":40,"spell5_id":93,"spell6_id":null,"spell7_id":null,"spell8_id":null,"spell9_id":null,"spell10_id":null,"user_id":null,"id":"494344"},"494341":{"created_at":"2022-06-27T12:35:20Z","updated_at":"2022-06-27T12:35:20Z","author":"BooRay","description":"","public":true,"gender":"Female","title":"Faith/dex
+        lkgs","starting_class":"Knight","level":130,"vigor":38,"attunement":24,"endurance":29,"vitality":18,"strength":24,"dexterity":40,"intelligence":9,"faith":30,"luck":7,"hollowing":0,"covenant":"Warriors
+        of Sunlight","two_hand":true,"lh1_infusion":"normal","lh2_infusion":null,"lh3_infusion":null,"rh1_infusion":"sharp","rh2_infusion":"normal","rh3_infusion":null,"votes":0,"head_id":182,"body_id":183,"arms_id":60,"legs_id":185,"ring1_id":112,"ring2_id":113,"ring3_id":116,"ring4_id":19,"lh1_id":175,"lh2_id":null,"lh3_id":null,"rh1_id":184,"rh2_id":null,"rh3_id":null,"spell1_id":105,"spell2_id":69,"spell3_id":null,"spell4_id":83,"spell5_id":null,"spell6_id":null,"spell7_id":null,"spell8_id":null,"spell9_id":null,"spell10_id":null,"user_id":null,"id":"494341"}},"results":[{"key":"ds3_builds","id":"494397"},{"key":"ds3_builds","id":"494393"},{"key":"ds3_builds","id":"494388"},{"key":"ds3_builds","id":"494386"},{"key":"ds3_builds","id":"494382"},{"key":"ds3_builds","id":"494381"},{"key":"ds3_builds","id":"494380"},{"key":"ds3_builds","id":"494379"},{"key":"ds3_builds","id":"494378"},{"key":"ds3_builds","id":"494377"},{"key":"ds3_builds","id":"494376"},{"key":"ds3_builds","id":"494375"},{"key":"ds3_builds","id":"494374"},{"key":"ds3_builds","id":"494373"},{"key":"ds3_builds","id":"494366"},{"key":"ds3_builds","id":"494362"},{"key":"ds3_builds","id":"494361"},{"key":"ds3_builds","id":"494358"},{"key":"ds3_builds","id":"494344"},{"key":"ds3_builds","id":"494341"}]}'
+  recorded_at: Thu, 30 Jun 2022 02:35:15 GMT
+- request:
+    method: get
+    uri: https://mugenmonkey.com/api/v0/ds3_rings
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Date:
+      - Thu, 30 Jun 2022 02:35:14 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Request-Id:
+      - 778ff5dd-ecd4-4c72-a2a7-6a103d94c27e
+      X-Runtime:
+      - '0.001628'
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubDomains
+      Via:
+      - 1.1 vegur
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=WZ%2BnuC23Rqm%2Fd3nddC3zCNaIJKLTSOfHfHkhBNCYko5F5wF0Ggo3jCVePB1J%2BcWnHVgHF1aW%2FI2QDfMWIky14l5g4%2FkiMDGDspJe72SgJS2g5pWivPA6eO8tHSgTGMSY3XA%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 723381e60eec1f2b-NRT
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        <!DOCTYPE html>
+        <html>
+        <head>
+          <title>The page you were looking for doesn't exist (404)</title>
+          <meta name="viewport" content="width=device-width,initial-scale=1">
+          <style>
+          body {
+            background-color: #EFEFEF;
+            color: #2E2F30;
+            text-align: center;
+            font-family: arial, sans-serif;
+            margin: 0;
+          }
+
+          div.dialog {
+            width: 95%;
+            max-width: 33em;
+            margin: 4em auto 0;
+          }
+
+          div.dialog > div {
+            border: 1px solid #CCC;
+            border-right-color: #999;
+            border-left-color: #999;
+            border-bottom-color: #BBB;
+            border-top: #B00100 solid 4px;
+            border-top-left-radius: 9px;
+            border-top-right-radius: 9px;
+            background-color: white;
+            padding: 7px 12% 0;
+            box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+          }
+
+          h1 {
+            font-size: 100%;
+            color: #730E15;
+            line-height: 1.5em;
+          }
+
+          div.dialog > p {
+            margin: 0 0 1em;
+            padding: 1em;
+            background-color: #F7F7F7;
+            border: 1px solid #CCC;
+            border-right-color: #999;
+            border-left-color: #999;
+            border-bottom-color: #999;
+            border-bottom-left-radius: 4px;
+            border-bottom-right-radius: 4px;
+            border-top-color: #DADADA;
+            color: #666;
+            box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+          }
+          </style>
+        </head>
+
+        <body>
+          <!-- This file lives in public/404.html -->
+          <div class="dialog">
+            <div>
+              <h1>The page you were looking for doesn't exist.</h1>
+              <p>You may have mistyped the address or the page may have moved.</p>
+            </div>
+            <p>If you are the application owner check the logs for more information.</p>
+          </div>
+        </body>
+        </html>
+  recorded_at: Thu, 30 Jun 2022 02:35:16 GMT
+recorded_with: VCR 6.1.0
